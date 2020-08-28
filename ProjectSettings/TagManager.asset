@@ -3,7 +3,10 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Collectible
+  - Projectile
+  - PowerUp
   layers:
   - Default
   - TransparentFX
@@ -13,8 +16,8 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
+  - Ground
+  - Platform
   - 
   - 
   - 
@@ -38,6 +41,21 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Background
+    uniqueID: 3638118713
+    locked: 0
+  - name: Player
+    uniqueID: 3149318823
+    locked: 0
+  - name: Enemy
+    uniqueID: 1819365381
+    locked: 0
+  - name: Collectible
+    uniqueID: 1877210411
+    locked: 0
+  - name: Projectile
+    uniqueID: 1212663581
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
